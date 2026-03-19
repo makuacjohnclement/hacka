@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+pydantic
+googlemaps
+reportlab
+openpyxl
+pandas
+firebase-admin
+python-dotenv
+google-genai

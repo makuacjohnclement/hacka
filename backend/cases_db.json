@@ -1,0 +1,2204 @@
+[
+    {
+        "id": "e7fdaaa6-befa-4193-b108-ac3709fada04",
+        "timestamp": "2026-03-18T12:14:15.117738",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Downtown Square",
+            "severity": 8,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 29.5,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (7 mins) and severity.",
+            "confidence": 94.2,
+            "eta_minutes": 7
+        },
+        "resolved": true
+    },
+    {
+        "id": "50b3e8c3-fe9c-41c9-80ca-adb78104b9f6",
+        "timestamp": "2026-03-18T12:15:56.820099",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Downtown Square",
+            "severity": 8,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "AMB-02",
+            "decision_score": 31.5,
+            "reason": "Selected AMB-02 (ambulance) due to optimal balance of ETA (3 mins) and severity.",
+            "confidence": 97.2,
+            "eta_minutes": 3
+        },
+        "resolved": true
+    },
+    {
+        "id": "67e6f004-ee49-43b0-a261-2291c1728c54",
+        "timestamp": "2026-03-18T12:29:36.907353",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Downtown Square",
+            "severity": 8,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "AMB-02",
+            "decision_score": 28.0,
+            "reason": "Selected AMB-02 (ambulance) due to optimal balance of ETA (10 mins) and severity.",
+            "confidence": 92.0,
+            "eta_minutes": 10
+        },
+        "resolved": true
+    },
+    {
+        "id": "6545194d-8608-417c-947b-30040355ea1a",
+        "timestamp": "2026-03-18T12:30:04.264605",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Downtown Square",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "FIRE-02",
+            "decision_score": 24.0,
+            "reason": "Selected FIRE-02 (fire_truck) due to optimal balance of ETA (9 mins) and severity.",
+            "confidence": 86.0,
+            "eta_minutes": 9
+        },
+        "resolved": true
+    },
+    {
+        "id": "539f2bd5-0920-42a6-9ff0-4e8ec6534091",
+        "timestamp": "2026-03-18T23:33:02.863838",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Nairobi CBD",
+            "severity": 8,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 25.5,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 88.2,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        }
+    },
+    {
+        "id": "4c1ed985-263c-4d1a-b5fa-592926ecd380",
+        "timestamp": "2026-03-18T23:33:54.747657",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Roysambu",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 21.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 81.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2188,
+            "lng": 36.8898
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        }
+    },
+    {
+        "id": "19cae4a5-2c77-457e-9200-a2ec00113740",
+        "timestamp": "2026-03-18T23:35:45.529241",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Kenyatta National Hospital, Nairobi",
+            "severity": 1,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 15.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 72.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        }
+    },
+    {
+        "id": "1a7d7e85-295d-489c-b870-6edce0124727",
+        "timestamp": "2026-03-18T23:38:29.937195",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Eastleigh",
+            "severity": 8,
+            "people_affected": 1,
+            "urgency": 6
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 17.5,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 76.2,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2727,
+            "lng": 36.8526
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        }
+    },
+    {
+        "id": "17323f24-434d-48b5-91b0-cfc0b07bca6c",
+        "timestamp": "2026-03-18T23:46:37.992941",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Nairobi CBD",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 11.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 66.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        }
+    },
+    {
+        "id": "d45fb862-daa7-41fd-887c-3dd1c1f7c851",
+        "timestamp": "2026-03-18T23:47:07.304541",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "South B",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 9
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 19.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 78.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3147,
+            "lng": 36.831
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        }
+    },
+    {
+        "id": "657234eb-4853-4469-acd1-00e176770a03",
+        "timestamp": "2026-03-18T23:47:49.317700",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Mombasa Road",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 9
+        },
+        "decision": {
+            "selected_resource": "FIRE-02",
+            "decision_score": 19.0,
+            "reason": "Selected FIRE-02 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 78.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3258,
+            "lng": 36.8574
+        },
+        "unit_coords": {
+            "lat": -1.3152,
+            "lng": 36.846
+        }
+    },
+    {
+        "id": "dc840fb2-cf61-4cb8-bf99-d0120a13abab",
+        "timestamp": "2026-03-18T23:57:17.755142",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Eastleigh",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 9
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 19.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 78.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2727,
+            "lng": 36.8526
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        }
+    },
+    {
+        "id": "3202e64b-933a-431f-a807-994c7f3f52f9",
+        "timestamp": "2026-03-18T23:58:24.008699",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Lavington",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 9
+        },
+        "decision": {
+            "selected_resource": "AMB-02",
+            "decision_score": 19.0,
+            "reason": "Selected AMB-02 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 78.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2838,
+            "lng": 36.7662
+        },
+        "unit_coords": {
+            "lat": -1.2635,
+            "lng": 36.8125
+        }
+    },
+    {
+        "id": "a18eaa31-baee-4996-b720-62e481b74f60",
+        "timestamp": "2026-03-19T00:41:39.433711",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Githurai",
+            "severity": 9,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 23.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 84.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.1913,
+            "lng": 36.901
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        }
+    },
+    {
+        "id": "edb74a06-a5af-4b17-a572-918fb4de5ea2",
+        "timestamp": "2026-03-19T00:43:26.252403",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Donholm",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 17.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2938,
+            "lng": 36.9001
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "resolved_at": "2026-03-19T00:44:40.744597",
+        "response_time_seconds": 74.492194
+    },
+    {
+        "id": "b1c061f7-cbf3-4fe1-90ab-35bc243db72e",
+        "timestamp": "2026-03-19T00:44:05.510127",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Donholm",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 17.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2938,
+            "lng": 36.9001
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "resolved_at": "2026-03-19T00:44:38.093301",
+        "response_time_seconds": 32.583174
+    },
+    {
+        "id": "78c37680-db87-42b2-aa45-90b2f252913f",
+        "timestamp": "2026-03-19T00:44:12.988284",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "South C",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "AMB-02",
+            "decision_score": 17.0,
+            "reason": "Selected AMB-02 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3227,
+            "lng": 36.8173
+        },
+        "unit_coords": {
+            "lat": -1.2635,
+            "lng": 36.8125
+        },
+        "resolved_at": "2026-03-19T00:44:35.754169",
+        "response_time_seconds": 22.765885
+    },
+    {
+        "id": "09389a49-bfac-4078-ac31-a52142cb5d3c",
+        "timestamp": "2026-03-19T00:44:53.532563",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Roysambu",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 17.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2188,
+            "lng": 36.8898
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "resolved_at": "2026-03-19T00:55:53.958437",
+        "response_time_seconds": 660.425874
+    },
+    {
+        "id": "5b7fbb45-7527-4564-a9b3-9cdb27b87c95",
+        "timestamp": "2026-03-19T00:52:55.507675",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Eastleigh",
+            "severity": 7,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 20.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 80.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2727,
+            "lng": 36.8526
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "resolved_at": "2026-03-19T00:56:12.729051",
+        "response_time_seconds": 197.221376
+    },
+    {
+        "id": "9d6b36df-e0d7-4ab8-b254-6c793291cbe0",
+        "timestamp": "2026-03-19T01:19:25.562674",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Parklands",
+            "severity": 10,
+            "people_affected": 1,
+            "urgency": 6
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 20.5,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 80.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.263,
+            "lng": 36.8094
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "resolved_at": "2026-03-19T01:20:08.988624",
+        "response_time_seconds": 43.42595
+    },
+    {
+        "id": "d0c57cfe-526a-47e5-9b31-47528d683270",
+        "timestamp": "2026-03-19T01:26:20.908305",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Kawangware",
+            "severity": 8,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 25.5,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 88.2,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2786,
+            "lng": 36.7388
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "resolved_at": "2026-03-19T01:27:32.164579",
+        "response_time_seconds": 71.256274
+    },
+    {
+        "id": "6e2e1547-75b3-4b8c-84e0-51ffbf544ffb",
+        "timestamp": "2026-03-19T01:35:52.921752",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Kasarani",
+            "severity": 7,
+            "people_affected": 1,
+            "urgency": 9
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 22.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 83.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2292,
+            "lng": 36.8892
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "resolved_at": "2026-03-19T08:22:23.858853",
+        "response_time_seconds": 24390.937101
+    },
+    {
+        "id": "3f441436-78ec-4550-99f5-4686b05b1f3b",
+        "timestamp": "2026-03-19T08:23:03.362054",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Embakasi",
+            "severity": 7,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 20.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 80.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "resolved_at": "2026-03-19T08:23:27.859433",
+        "response_time_seconds": 24.497379
+    },
+    {
+        "id": "1a72551f-ddb6-4ab4-a0e3-30a18b664df4",
+        "timestamp": "2026-03-19T08:24:01.774072",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Kawangware",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 17.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2786,
+            "lng": 36.7388
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "resolved_at": "2026-03-19T08:25:43.555463",
+        "response_time_seconds": 101.781391
+    },
+    {
+        "id": "51d7205d-6ad1-45d6-b11b-662b4866932b",
+        "timestamp": "2026-03-19T08:55:38.662917",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Langata",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 17.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3546,
+            "lng": 36.743
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "resolved_at": "2026-03-19T08:58:36.269951",
+        "response_time_seconds": 177.607034
+    },
+    {
+        "id": "34a78a51-a51a-4db8-87cc-82aade043dc9",
+        "timestamp": "2026-03-19T08:57:06.180045",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Parklands",
+            "severity": 7,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 20.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 80.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.263,
+            "lng": 36.8094
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "resolved_at": "2026-03-19T08:57:59.632637",
+        "response_time_seconds": 53.452592
+    },
+    {
+        "id": "f4ea4b4b-84e9-4a56-baad-82998dd23bed",
+        "timestamp": "2026-03-19T08:58:10.097115",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Lavington",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 17.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2838,
+            "lng": 36.7662
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "resolved_at": "2026-03-19T08:58:33.972936",
+        "response_time_seconds": 23.875821
+    },
+    {
+        "id": "46721693-ffbf-424e-84c6-1d3112884c0e",
+        "timestamp": "2026-03-19T09:05:14.444195",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Eastleigh",
+            "severity": 9,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 23.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 84.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2727,
+            "lng": 36.8526
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "resolved_at": "2026-03-19T09:05:45.669068",
+        "response_time_seconds": 31.224873
+    },
+    {
+        "id": "b4735d02-6dfa-4111-b028-2b73cec23b45",
+        "timestamp": "2026-03-19T09:07:08.622630",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Eastleigh",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 8
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 17.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2727,
+            "lng": 36.8526
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "resolved_at": "2026-03-19T09:07:29.103806",
+        "response_time_seconds": 20.481176
+    },
+    {
+        "id": "4e6b4279-6bba-45db-a4b8-97773f21a323",
+        "timestamp": "2026-03-19T09:30:34.908489",
+        "incident_data": {
+            "type": "Fire",
+            "location": "Westland",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 11.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 66.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "resolved_at": "2026-03-19T10:10:32.202905",
+        "response_time_seconds": 2397.294416
+    },
+    {
+        "id": "b63c1b86-55a7-4b3c-b6c4-2a33e3d4b632",
+        "timestamp": "2026-03-19T09:31:23.815536",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "westlands",
+            "severity": 7,
+            "people_affected": 21,
+            "urgency": 6
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 36.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 99.9,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2681,
+            "lng": 36.811
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "resolved_at": "2026-03-19T10:10:47.004214",
+        "response_time_seconds": 2363.188678
+    },
+    {
+        "id": "9295e608-bf28-4cb0-8555-54b7b83d998e",
+        "timestamp": "2026-03-19T09:41:48.931713",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "South B",
+            "severity": 7,
+            "people_affected": 7,
+            "urgency": 7
+        },
+        "decision": {
+            "selected_resource": "FIRE-02",
+            "decision_score": 24.0,
+            "reason": "Selected FIRE-02 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 86.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3147,
+            "lng": 36.831
+        },
+        "unit_coords": {
+            "lat": -1.3152,
+            "lng": 36.846
+        },
+        "reporter_uid": "dev-user",
+        "resolved_at": "2026-03-19T10:10:46.622495",
+        "response_time_seconds": 1737.690782
+    },
+    {
+        "id": "8948e76c-a85a-41b4-9bc8-86d4260d8a92",
+        "timestamp": "2026-03-19T09:48:02.008325",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Embakasi",
+            "severity": 7,
+            "people_affected": 200,
+            "urgency": 7
+        },
+        "decision": {
+            "selected_resource": "AMB-02",
+            "decision_score": 217.0,
+            "reason": "Selected AMB-02 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 99.9,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.2635,
+            "lng": 36.8125
+        },
+        "reporter_uid": "dev-user",
+        "resolved_at": "2026-03-19T10:11:28.670673",
+        "response_time_seconds": 1406.662348
+    },
+    {
+        "id": "9e65e753-379f-42a2-8298-2b5512c7473b",
+        "timestamp": "2026-03-19T10:10:20.340774",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Nairobi CBD",
+            "severity": 8,
+            "people_affected": 1,
+            "urgency": 3
+        },
+        "decision": {
+            "selected_resource": "AMB-03",
+            "decision_score": 11.5,
+            "reason": "Selected AMB-03 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 67.2,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "unit_coords": {
+            "lat": -1.3123,
+            "lng": 36.7875
+        },
+        "reporter_uid": "dev-user",
+        "resolved_at": "2026-03-19T10:10:55.258676",
+        "response_time_seconds": 34.917902
+    },
+    {
+        "id": "4b65021b-ef1c-4fb7-9264-ea1bcbd77c74",
+        "timestamp": "2026-03-19T10:32:55.163233",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Embakasi",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 3
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 7.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 60.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:45:25.473119",
+        "response_time_seconds": 750.309886
+    },
+    {
+        "id": "fdce9e77-5575-4ca5-943a-cfdbde77956b",
+        "timestamp": "2026-03-19T10:39:55.737179",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Westlands",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-03",
+            "decision_score": 11.0,
+            "reason": "Selected AMB-03 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 66.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2681,
+            "lng": 36.811
+        },
+        "unit_coords": {
+            "lat": -1.3123,
+            "lng": 36.7875
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:55:32.703030",
+        "response_time_seconds": 936.965851
+    },
+    {
+        "id": "339c3e5d-b303-441e-b1a1-b6f4b3178e10",
+        "timestamp": "2026-03-19T10:42:58.191900",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Westlands",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-02",
+            "decision_score": 11.0,
+            "reason": "Selected AMB-02 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 66.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2681,
+            "lng": 36.811
+        },
+        "unit_coords": {
+            "lat": -1.2635,
+            "lng": 36.8125
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:54:51.963839",
+        "response_time_seconds": 713.771939
+    },
+    {
+        "id": "a2d29203-48d9-47d1-ae59-74abcc40190a",
+        "timestamp": "2026-03-19T10:44:25.491546",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "South C",
+            "severity": 5,
+            "people_affected": 7,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 17.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 75.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3227,
+            "lng": 36.8173
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:55:17.874329",
+        "response_time_seconds": 652.382783
+    },
+    {
+        "id": "139f966c-a575-4871-a8b2-021c342dc516",
+        "timestamp": "2026-03-19T10:44:41.156249",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Donholm",
+            "severity": 5,
+            "people_affected": 2,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-02",
+            "decision_score": 12.0,
+            "reason": "Selected AMB-02 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 68.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2938,
+            "lng": 36.9001
+        },
+        "unit_coords": {
+            "lat": -1.2635,
+            "lng": 36.8125
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:57:40.889182",
+        "response_time_seconds": 779.732933
+    },
+    {
+        "id": "ecddf8de-7fd4-48ad-8ec6-7abaed79cf40",
+        "timestamp": "2026-03-19T10:45:40.387703",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "South C",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 3
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 7.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 60.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3227,
+            "lng": 36.8173
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:46:05.147713",
+        "response_time_seconds": 24.76001
+    },
+    {
+        "id": "a45d26f5-b737-417a-97f3-cb90889c4f7c",
+        "timestamp": "2026-03-19T10:46:11.368207",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Westlands",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 5.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2681,
+            "lng": 36.811
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:46:32.380457",
+        "response_time_seconds": 21.01225
+    },
+    {
+        "id": "05afe4e6-7632-42a2-936b-3eebd8995919",
+        "timestamp": "2026-03-19T10:46:30.986751",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Donholm",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 5.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2938,
+            "lng": 36.9001
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:47:18.603726",
+        "response_time_seconds": 47.616975
+    },
+    {
+        "id": "8ad96af2-7c25-4938-8a95-29724326b99b",
+        "timestamp": "2026-03-19T10:46:42.269912",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Kawangware",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 5.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2786,
+            "lng": 36.7388
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:47:42.585205",
+        "response_time_seconds": 60.315293
+    },
+    {
+        "id": "7aae2bb4-c5a9-47a9-ae16-a89ad0bc3fff",
+        "timestamp": "2026-03-19T10:46:59.045550",
+        "incident_data": {
+            "type": "Police Action",
+            "location": "Githurai",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "POL-01",
+            "decision_score": 5.0,
+            "reason": "Selected POL-01 (police_car) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.1913,
+            "lng": 36.901
+        },
+        "unit_coords": {
+            "lat": -1.2846,
+            "lng": 36.8256
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:47:55.551322",
+        "response_time_seconds": 56.505772
+    },
+    {
+        "id": "db5e93f7-e5a5-41df-936a-6f340c790791",
+        "timestamp": "2026-03-19T10:47:31.081711",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "South C",
+            "severity": 6,
+            "people_affected": 6,
+            "urgency": 7
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 21.5,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 82.2,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3227,
+            "lng": 36.8173
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:55:04.871660",
+        "response_time_seconds": 453.789949
+    },
+    {
+        "id": "835e1220-d318-4078-a58f-65ff0fce299e",
+        "timestamp": "2026-03-19T10:48:06.517851",
+        "incident_data": {
+            "type": "Police Action",
+            "location": "Eastleigh",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "POL-01",
+            "decision_score": 5.0,
+            "reason": "Selected POL-01 (police_car) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2727,
+            "lng": 36.8526
+        },
+        "unit_coords": {
+            "lat": -1.2846,
+            "lng": 36.8256
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:48:26.989589",
+        "response_time_seconds": 20.471738
+    },
+    {
+        "id": "162ff12c-67d6-4e4e-9150-e4f8ab8f796d",
+        "timestamp": "2026-03-19T10:48:34.673346",
+        "incident_data": {
+            "type": "Police Action",
+            "location": "Roysambu",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "POL-01",
+            "decision_score": 5.0,
+            "reason": "Selected POL-01 (police_car) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2188,
+            "lng": 36.8898
+        },
+        "unit_coords": {
+            "lat": -1.2846,
+            "lng": 36.8256
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:49:16.823681",
+        "response_time_seconds": 42.150335
+    },
+    {
+        "id": "522cfb80-78be-47fc-bd4a-9298c9c5d201",
+        "timestamp": "2026-03-19T10:48:52.562969",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "South B",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 5.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3147,
+            "lng": 36.831
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:49:26.159279",
+        "response_time_seconds": 33.59631
+    },
+    {
+        "id": "5e2dc29b-43ac-4af4-8898-4b41743049d9",
+        "timestamp": "2026-03-19T10:49:03.524299",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Embakasi",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 5.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:51:14.584259",
+        "response_time_seconds": 131.05996
+    },
+    {
+        "id": "ddf04b47-e34c-485b-9c38-fdbd7f813300",
+        "timestamp": "2026-03-19T10:49:19.488839",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "South C",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 5.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3227,
+            "lng": 36.8173
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:49:40.944220",
+        "response_time_seconds": 21.455381
+    },
+    {
+        "id": "5c2a5bd4-4d9f-440d-b2cf-5ea9786d1981",
+        "timestamp": "2026-03-19T10:49:40.167050",
+        "incident_data": {
+            "type": "Police Action",
+            "location": "Eastleigh",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "POL-01",
+            "decision_score": 5.0,
+            "reason": "Selected POL-01 (police_car) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2727,
+            "lng": 36.8526
+        },
+        "unit_coords": {
+            "lat": -1.2846,
+            "lng": 36.8256
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:51:14.584259",
+        "response_time_seconds": 94.417209
+    },
+    {
+        "id": "d499c97e-1339-43a9-a3f1-14115df785f9",
+        "timestamp": "2026-03-19T10:51:26.444980",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Embakasi",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 2
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 5.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 57.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:52:18.920598",
+        "response_time_seconds": 52.475618
+    },
+    {
+        "id": "0c370037-633b-45ec-af95-2cb17c603f10",
+        "timestamp": "2026-03-19T10:53:18.277588",
+        "incident_data": {
+            "type": "Police Action",
+            "location": "Upper Hill",
+            "severity": 7,
+            "people_affected": 1,
+            "urgency": 1
+        },
+        "decision": {
+            "selected_resource": "POL-01",
+            "decision_score": 6.0,
+            "reason": "Selected POL-01 (police_car) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 59.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3032,
+            "lng": 36.8148
+        },
+        "unit_coords": {
+            "lat": -1.2846,
+            "lng": 36.8256
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:53:35.662175",
+        "response_time_seconds": 17.384587
+    },
+    {
+        "id": "acca0b31-60c5-41e5-937a-df3f4cb2d3cb",
+        "timestamp": "2026-03-19T10:53:34.277552",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Embakasi",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 1
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 3.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 54.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:54:36.117885",
+        "response_time_seconds": 61.840333
+    },
+    {
+        "id": "b2bed352-84bd-47ab-9c3d-1d2d5a874213",
+        "timestamp": "2026-03-19T10:53:46.305513",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "South C",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 1
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 3.0,
+            "reason": "Selected FIRE-01 (fire_truck) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 54.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3227,
+            "lng": 36.8173
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:54:10.755155",
+        "response_time_seconds": 24.449642
+    },
+    {
+        "id": "add1c75a-2f08-4fb6-97ee-8ea56766a9ef",
+        "timestamp": "2026-03-19T10:53:55.145169",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Embakasi",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 1
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 3.0,
+            "reason": "Selected AMB-01 (ambulance) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 54.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:54:49.510759",
+        "response_time_seconds": 54.36559
+    },
+    {
+        "id": "0289590e-6383-4548-815d-a8f615242f0d",
+        "timestamp": "2026-03-19T10:54:08.275129",
+        "incident_data": {
+            "type": "Police Action",
+            "location": "Eastleigh",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 1
+        },
+        "decision": {
+            "selected_resource": "POL-01",
+            "decision_score": 3.0,
+            "reason": "Selected POL-01 (police_car) due to optimal balance of ETA (15 mins) and severity.",
+            "confidence": 54.5,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2727,
+            "lng": 36.8526
+        },
+        "unit_coords": {
+            "lat": -1.2846,
+            "lng": 36.8256
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T10:54:36.140696",
+        "response_time_seconds": 27.865567
+    },
+    {
+        "id": "ca470a9a-364a-4093-91fe-6777b2c31211",
+        "timestamp": "2026-03-19T11:06:59.235499",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Nairobi CBD",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 11.0,
+            "reason": "Dispatching AMB-01 (ambulance) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 63.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T11:07:12.177520",
+        "response_time_seconds": 12.942021
+    },
+    {
+        "id": "75e06440-463e-48d2-a1ca-e1dafdda4a30",
+        "timestamp": "2026-03-19T11:07:19.796738",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Kawangware",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 11.0,
+            "reason": "Dispatching FIRE-01 (fire truck) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 63.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2786,
+            "lng": 36.7388
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T11:08:07.208040",
+        "response_time_seconds": 47.411302
+    },
+    {
+        "id": "d5a20e74-a253-4cd2-8673-aa9dcf5ac00d",
+        "timestamp": "2026-03-19T11:08:44.365155",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Karen",
+            "severity": 8,
+            "people_affected": 1,
+            "urgency": 7
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 19.5,
+            "reason": "Dispatching FIRE-01 (fire truck) \u2014 optimal ETA 15 min for severity 8/10.",
+            "confidence": 70.6,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.32,
+            "lng": 36.6978
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T11:09:43.322248",
+        "response_time_seconds": 58.957093
+    },
+    {
+        "id": "b3905f45-78e0-4911-ad23-2c54c57f6f7f",
+        "timestamp": "2026-03-19T11:11:40.552786",
+        "incident_data": {
+            "type": "Flood",
+            "location": "Donholm",
+            "severity": 6,
+            "people_affected": 9,
+            "urgency": 7
+        },
+        "decision": {
+            "selected_resource": "HELI-01",
+            "decision_score": 24.5,
+            "reason": "Dispatching HELI-01 (helicopter) \u2014 optimal ETA 15 min for severity 6/10.",
+            "confidence": 74.6,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2938,
+            "lng": 36.9001
+        },
+        "unit_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T11:12:27.746936",
+        "response_time_seconds": 47.19415
+    },
+    {
+        "id": "4330fd76-258b-4307-abb9-88fd9d48c0ff",
+        "timestamp": "2026-03-19T11:13:04.219164",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Kawangware",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 7
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 15.0,
+            "reason": "Dispatching FIRE-01 (fire truck) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 67.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2786,
+            "lng": 36.7388
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T11:13:54.354661",
+        "response_time_seconds": 50.135497
+    },
+    {
+        "id": "07abf420-2f65-4c89-adfb-a73c3fc67176",
+        "timestamp": "2026-03-19T11:13:23.824242",
+        "incident_data": {
+            "type": "Flood",
+            "location": "Embakasi",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "HELI-01",
+            "decision_score": 11.0,
+            "reason": "Dispatching HELI-01 (helicopter) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 63.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T11:14:50.830809",
+        "response_time_seconds": 87.006567
+    },
+    {
+        "id": "947651b7-b299-4f98-bb82-c4be34e5748c",
+        "timestamp": "2026-03-19T11:13:49.791042",
+        "incident_data": {
+            "type": "Flood",
+            "location": "Embakasi",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "HELI-01",
+            "decision_score": 11.0,
+            "reason": "Dispatching HELI-01 (helicopter) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 63.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T11:16:22.632263",
+        "response_time_seconds": 152.841221
+    },
+    {
+        "id": "d2fde01e-22c2-4b1c-a008-eebe93d68473",
+        "timestamp": "2026-03-19T11:15:25.050590",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Langata",
+            "severity": 5,
+            "people_affected": 4,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 14.0,
+            "reason": "Dispatching AMB-01 (ambulance) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 66.2,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3546,
+            "lng": 36.743
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T11:16:22.661523",
+        "response_time_seconds": 57.610933
+    },
+    {
+        "id": "9b0eca0a-7275-4e52-b958-18333671d414",
+        "timestamp": "2026-03-19T14:06:45.833240",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Nairobi CBD",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 11.0,
+            "reason": "Dispatching AMB-01 (ambulance) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 63.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T14:07:05.850866",
+        "response_time_seconds": 20.017626
+    },
+    {
+        "id": "f6a39865-fd7d-4373-a29a-2965b90bbef3",
+        "timestamp": "2026-03-19T14:07:17.800747",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Donholm",
+            "severity": 10,
+            "people_affected": 1,
+            "urgency": 10
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 28.5,
+            "reason": "Dispatching AMB-01 (ambulance) \u2014 optimal ETA 15 min for severity 10/10.",
+            "confidence": 77.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2938,
+            "lng": 36.9001
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T14:08:06.565957",
+        "response_time_seconds": 48.76521
+    },
+    {
+        "id": "9a413c94-73ce-4fed-b3d0-4e1deff44d0d",
+        "timestamp": "2026-03-19T14:09:38.602171",
+        "incident_data": {
+            "type": "Flood",
+            "location": "Langata",
+            "severity": 5,
+            "people_affected": 3,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "HELI-01",
+            "decision_score": 13.0,
+            "reason": "Dispatching HELI-01 (helicopter) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 65.4,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3546,
+            "lng": 36.743
+        },
+        "unit_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T16:34:22.977923",
+        "response_time_seconds": 8684.375752
+    },
+    {
+        "id": "38f13931-ce64-4949-9b2e-8b0570a727d0",
+        "timestamp": "2026-03-19T16:32:32.227720",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Nairobi CBD",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 11.0,
+            "reason": "Dispatching AMB-01 (ambulance) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 63.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T16:32:47.311114",
+        "response_time_seconds": 15.083394
+    },
+    {
+        "id": "df7460c0-86c5-43b9-b50f-98ba2ec68086",
+        "timestamp": "2026-03-19T16:33:53.665780",
+        "incident_data": {
+            "type": "Police Action",
+            "location": "Githurai",
+            "severity": 8,
+            "people_affected": 9,
+            "urgency": 7
+        },
+        "decision": {
+            "selected_resource": "POL-01",
+            "decision_score": 27.5,
+            "reason": "Dispatching POL-01 (police car) \u2014 optimal ETA 15 min for severity 8/10.",
+            "confidence": 77.0,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.1913,
+            "lng": 36.901
+        },
+        "unit_coords": {
+            "lat": -1.2846,
+            "lng": 36.8256
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T16:35:10.317336",
+        "response_time_seconds": 76.651556
+    },
+    {
+        "id": "c7a8f5dc-0d6a-4729-b854-84b7351b1073",
+        "timestamp": "2026-03-19T16:39:18.547723",
+        "incident_data": {
+            "type": "Fire Outbreak",
+            "location": "Donholm",
+            "severity": 9,
+            "people_affected": 19,
+            "urgency": 9
+        },
+        "decision": {
+            "selected_resource": "FIRE-01",
+            "decision_score": 43.0,
+            "reason": "Dispatching FIRE-01 (fire truck) \u2014 optimal ETA 15 min for severity 9/10.",
+            "confidence": 89.4,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.2938,
+            "lng": 36.9001
+        },
+        "unit_coords": {
+            "lat": -1.2858,
+            "lng": 36.8241
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T16:40:20.553097",
+        "response_time_seconds": 62.005374
+    },
+    {
+        "id": "2ce3c610-7287-47cb-9737-24defc095aa9",
+        "timestamp": "2026-03-19T16:41:30.353512",
+        "incident_data": {
+            "type": "Flood",
+            "location": "South C",
+            "severity": 7,
+            "people_affected": 4,
+            "urgency": 6
+        },
+        "decision": {
+            "selected_resource": "HELI-01",
+            "decision_score": 19.0,
+            "reason": "Dispatching HELI-01 (helicopter) \u2014 optimal ETA 15 min for severity 7/10.",
+            "confidence": 70.2,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3227,
+            "lng": 36.8173
+        },
+        "unit_coords": {
+            "lat": -1.2866,
+            "lng": 36.8231
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T16:43:47.803551",
+        "response_time_seconds": 137.450039
+    },
+    {
+        "id": "e510d09f-54ed-4f5c-a75f-3e6d1360c25a",
+        "timestamp": "2026-03-19T16:41:51.038379",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Embakasi",
+            "severity": 6,
+            "people_affected": 5,
+            "urgency": 6
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 18.5,
+            "reason": "Dispatching AMB-01 (ambulance) \u2014 optimal ETA 15 min for severity 6/10.",
+            "confidence": 69.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T16:44:25.950107",
+        "response_time_seconds": 154.911728
+    },
+    {
+        "id": "223e41cd-4b4f-4eac-bc2e-ba51fc465214",
+        "timestamp": "2026-03-19T16:42:55.133879",
+        "incident_data": {
+            "type": "Medical Emergency",
+            "location": "Embakasi",
+            "severity": 5,
+            "people_affected": 1,
+            "urgency": 5
+        },
+        "decision": {
+            "selected_resource": "AMB-02",
+            "decision_score": 11.0,
+            "reason": "Dispatching AMB-02 (ambulance) \u2014 optimal ETA 15 min for severity 5/10.",
+            "confidence": 63.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.3297,
+            "lng": 36.9085
+        },
+        "unit_coords": {
+            "lat": -1.2635,
+            "lng": 36.8125
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T16:44:33.292595",
+        "response_time_seconds": 98.158716
+    },
+    {
+        "id": "cf5985b8-11b2-4f67-90e1-0d2a95e94e8d",
+        "timestamp": "2026-03-19T16:43:13.433665",
+        "incident_data": {
+            "type": "Traffic Accident",
+            "location": "Githurai",
+            "severity": 7,
+            "people_affected": 4,
+            "urgency": 7
+        },
+        "decision": {
+            "selected_resource": "AMB-01",
+            "decision_score": 21.0,
+            "reason": "Dispatching AMB-01 (ambulance) \u2014 optimal ETA 15 min for severity 7/10.",
+            "confidence": 71.8,
+            "eta_minutes": 15
+        },
+        "resolved": true,
+        "incident_coords": {
+            "lat": -1.1913,
+            "lng": 36.901
+        },
+        "unit_coords": {
+            "lat": -1.3006,
+            "lng": 36.8073
+        },
+        "reporter_uid": "dev-user",
+        "status": "dispatched",
+        "resolved_at": "2026-03-19T16:44:34.772250",
+        "response_time_seconds": 81.338585
+    }
+]
